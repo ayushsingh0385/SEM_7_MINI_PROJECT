@@ -1,0 +1,56 @@
+{
+  "model": "tfidf+stylometry-logreg",
+  "n_test": 8000,
+  "accuracy": 0.98775,
+  "precision": 0.9889724310776943,
+  "recall": 0.9865,
+  "f1": 0.9877346683354192,
+  "roc_auc": 0.9990208124999999,
+  "confusion_matrix": {
+    "true_human": {
+      "pred_human": 3956,
+      "pred_ai": 44
+    },
+    "true_ai": {
+      "pred_human": 54,
+      "pred_ai": 3946
+    }
+  },
+  "false_positive_rate": 0.011,
+  "false_negative_rate": 0.0135,
+  "report": {
+    "Human": {
+      "precision": 0.9865336658354115,
+      "recall": 0.989,
+      "f1-score": 0.9877652933832709,
+      "support": 4000.0
+    },
+    "AI": {
+      "precision": 0.9889724310776943,
+      "recall": 0.9865,
+      "f1-score": 0.9877346683354192,
+      "support": 4000.0
+    },
+    "accuracy": 0.98775,
+    "macro avg": {
+      "precision": 0.9877530484565529,
+      "recall": 0.98775,
+      "f1-score": 0.9877499808593451,
+      "support": 8000.0
+    },
+    "weighted avg": {
+      "precision": 0.987753048456553,
+      "recall": 0.98775,
+      "f1-score": 0.987749980859345,
+      "support": 8000.0
+    }
+  },
+  "train_seconds": 125.0,
+  "n_train": 40000,
+  "hyperparams": {
+    "word_features": 100000,
+    "char_features": 50000,
+    "C": 4.0
+  },
+  "n_features": 150024
+}

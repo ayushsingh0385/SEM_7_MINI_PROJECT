@@ -1,0 +1,31 @@
+# ---- Core ----
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+pyarrow>=14.0
+
+# ---- Frontend ----
+streamlit>=1.30
+altair>=5.0
+
+# ---- Text model (Week 2) ----
+scikit-learn>=1.3
+joblib>=1.3
+nltk>=3.8
+
+# ---- Image model (Week 3) ----
+torch>=2.0
+torchvision>=0.15
+pillow>=10.0
+
+# ---- Data acquisition ----
+huggingface-hub>=0.20
+requests>=2.31
+tqdm>=4.66
+
+# ---- Reporting / plots ----
+matplotlib>=3.7
+seaborn>=0.13
+
+# ---- Optional: Kaggle source instead of the HuggingFace mirror ----
+# kagglehub>=0.2
